@@ -55,7 +55,9 @@ def firstNetwork():
     PC2.cmd("killall xterm")
     PC3.cmd("killall xterm")
     PC4.cmd("killall xterm")
-	
+    
+    PC1.
+
     info( '*** Stopping network' )
     net.stop()
 

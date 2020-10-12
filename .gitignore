@@ -2,3 +2,5 @@
 00/.DS_Store
 
 .DS_Store
+**/.direnv
+01/scripts/.envrc

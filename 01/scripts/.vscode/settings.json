@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": ".direnv/python-3.8.5/bin/python",
+    "cSpell.enabled": true,
+    "python.formatting.provider": "yapf"
+}
