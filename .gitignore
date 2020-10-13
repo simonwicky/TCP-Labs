@@ -4,3 +4,5 @@
 .DS_Store
 **/.direnv
 01/scripts/.envrc
+
+01/scripts/.ipynb_checkpoints/

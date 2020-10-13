@@ -119,8 +119,8 @@ def chainNetwork(N):
                    str(i) + ' dev ' + PCs[i].name +'-eth0')
 
 
-    for i in range(1, N,10):
-        PCs[0].cmd('ping ' + PCs[i].IP() + " -c 13 | sed -n '5,14 p '> " + PCs[0].name + '-' + PCs[i].name + '-'+ str(N) +'-chain.txt')
+    #for i in range(1, N,10):
+    #    PCs[0].cmd('ping ' + PCs[i].IP() + " -c 13 | sed -n '5,14 p '> " + PCs[0].name + '-' + PCs[i].name + '-'+ str(N) +'-chain.txt')
 
     #PCs[0].cmd('ping ' + PCs[N-1].IP() + "-t 255 -c 13 | sed -n '5,14 p '> " + PCs[0].name + '-' + PCs[N-1].name + '-'+ str(N) +'-chain.txt')
 
