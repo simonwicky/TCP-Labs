@@ -1,0 +1,10 @@
+64 bytes from 10.10.3.4: icmp_seq=4 ttl=62 time=0.058 ms
+64 bytes from 10.10.3.4: icmp_seq=5 ttl=62 time=0.063 ms
+64 bytes from 10.10.3.4: icmp_seq=6 ttl=62 time=0.070 ms
+64 bytes from 10.10.3.4: icmp_seq=7 ttl=62 time=0.070 ms
+64 bytes from 10.10.3.4: icmp_seq=8 ttl=62 time=0.056 ms
+64 bytes from 10.10.3.4: icmp_seq=9 ttl=62 time=0.070 ms
+64 bytes from 10.10.3.4: icmp_seq=10 ttl=62 time=0.057 ms
+64 bytes from 10.10.3.4: icmp_seq=11 ttl=62 time=0.098 ms
+64 bytes from 10.10.3.4: icmp_seq=12 ttl=62 time=0.073 ms
+64 bytes from 10.10.3.4: icmp_seq=13 ttl=62 time=0.102 ms
