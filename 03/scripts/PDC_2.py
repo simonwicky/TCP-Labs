@@ -26,7 +26,7 @@ sock.connect((results.server, results.port))
 sock.sendall(results.command.encode())
 count = 0
 while 1:
-    data = sock.recv(100).decode()
+    data = sock.recv(1000).decode()
     count += 1
     if data:
         # add new line before new data
