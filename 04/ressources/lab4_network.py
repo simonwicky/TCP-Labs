@@ -167,12 +167,12 @@ def Lab4_Network():
     r4.cmd(
         "zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r4.cfg -i /home/lca2/Desktop/lab4/run/zebra_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root -k"
     )
-    # r4.cmd(
-    #    "ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r4.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root"
-    # )
-    # r4.cmd(
-    #     "ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r4.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root"
-    # )
+    r4.cmd(
+       "ospfd -d -f /home/lca2/Desktop/lab4/configs/ospfd_r4.cfg -i /home/lca2/Desktop/lab4/run/ospfd_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root"
+    )
+    r4.cmd(
+        "ospf6d -d -f /home/lca2/Desktop/lab4/configs/ospf6d_r4.cfg -i /home/lca2/Desktop/lab4/run/ospf6d_r4.pid -z /home/lca2/Desktop/lab4/run/frr_r4.api -u root"
+    )
     r5.cmd(
         "zebra -d -f /home/lca2/Desktop/lab4/configs/zebra_r5.cfg -i /home/lca2/Desktop/lab4/run/zebra_r5.pid -z /home/lca2/Desktop/lab4/run/frr_r5.api -u root -k"
     )
